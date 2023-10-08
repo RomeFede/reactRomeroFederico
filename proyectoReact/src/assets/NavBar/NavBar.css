@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+li {
+    display: inline-block;
+    margin: 50px;
+    cursor: pointer;
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+li:hover{
+    background-color: rgb(224, 224, 88);
+}
